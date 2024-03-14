@@ -10,7 +10,7 @@ Console.WriteLine("Change 3");
 int[] arr = { 1, 2, 3, 4 };
 
 Console.WriteLine(AverageCalculator(arr));
-Console.WriteLine(Max(arr));
+Console.WriteLine(MaxChanged(arr));
 
 static double AverageCalculator(int[] numbers)
 {
@@ -23,7 +23,7 @@ static double AverageCalculator(int[] numbers)
     return (double)sum / numbers.Length;
 }
 
-static double Max(int[] numbers)
+static double MaxChanged(int[] numbers)
 {
     int max = numbers[0];
     foreach (int number in numbers)
