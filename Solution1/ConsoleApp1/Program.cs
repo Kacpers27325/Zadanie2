@@ -2,3 +2,4 @@
 
 Console.WriteLine("Initial commit");
 Console.WriteLine("Change 1");
+Console.WriteLine("Change 2");
